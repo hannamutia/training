@@ -24,7 +24,7 @@ st.sidebar.markdown(
 )
 
 #Import Data
-loan = pd.read_pickle('data_input\loan_clean')
+loan = pd.read_pickle('data_input/loan_clean')
 loan.head()
 
 #st.metric('Total Loans', f"{ loan.id.count():,.0f}")
