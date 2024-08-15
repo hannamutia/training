@@ -9,7 +9,7 @@ st.set_page_config(
 
 
 #Import Data
-loan = pd.read_pickle('data_input\loan_clean')
+loan = pd.read_pickle('data_input/loan_clean')
 loan.head()
 
 
